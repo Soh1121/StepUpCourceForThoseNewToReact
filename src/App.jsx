@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { ChildArea } from './ChildArea';
 import "./styles.css";
 
 export default function App() {
@@ -11,10 +12,11 @@ export default function App() {
 
     return (
         <div className="App">
-            <h1>Hello, React!</h1>
-            <p>Welcome to your React application.</p>
-            <p>{count}</p>
-            <button type="button" onClick={onClickCountUp}>カウントアップ</button>
+            <input type="text" />
+            <br />
+            <br />
+            <button type="button">表示</button>
+            <ChildArea />
         </div>
     );
 }
