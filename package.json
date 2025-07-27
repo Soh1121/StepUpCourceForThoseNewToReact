@@ -1,0 +1,17 @@
+{
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"vite": "^7.0.0"
+	},
+	"scripts": {
+		"lint": "npx @biomejs/biome lint ./",
+		"lint:fix": "npx @biomejs/biome lint ./ --fix",
+		"dev": "vite"
+	},
+	"dependencies": {
+		"@vitejs/plugin-react": "^4.6.0",
+		"loader-utils": "3.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
+}
