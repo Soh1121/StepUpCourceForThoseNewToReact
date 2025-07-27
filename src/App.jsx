@@ -1,18 +1,11 @@
-import { InlineStyle } from "./components/InlineStyle";
-import { CssModules } from "./components/CssModules";
+import React from 'react';
 import "./styles.css";
-import { StyledJsx } from "./components/StyledJsx";
-import { StyledComponents } from "./components/StyledComponents";
-import { Emotion } from "./components/Emotion";
 
 export default function App() {
     return (
         <div className="App">
-            <InlineStyle />
-            <CssModules />
-            <StyledJsx />
-            <StyledComponents />
-            <Emotion />
+            <h1>Hello, React!</h1>
+            <p>Welcome to your React application.</p>
         </div>
     );
 }
