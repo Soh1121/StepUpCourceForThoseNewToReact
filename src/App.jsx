@@ -1,6 +1,5 @@
 import React from 'react';
 import "./styles.css";
-import axios from 'axios';
 
 export default function App() {
     const onClickUsers = () => {
@@ -15,8 +14,8 @@ export default function App() {
     };
     return (
         <div className="App">
-            <button type="button" onClick={onClickUsers}>users</button>
-            <button type="button" onClick={onClickUser1}>id=1のuser</button>
+            <h1>Hello, React!</h1>
+            <p>Welcome to your React application.</p>
         </div>
     );
 }
