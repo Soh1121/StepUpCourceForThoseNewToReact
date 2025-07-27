@@ -1,14 +1,11 @@
-import "./styles.css"
-import { Router } from './router/Router';
-import { UserProvider } from "./providers/UserProvider";
-import { RecoilRoot } from "recoil";
+import React from 'react';
+import "./styles.css";
 
 export default function App() {
     return (
-        <RecoilRoot>
-            <UserProvider>
-                <Router />
-            </UserProvider>
-        </RecoilRoot>
+        <div className="App">
+            <h1>Hello, React!</h1>
+            <p>Welcome to your React application.</p>
+        </div>
     );
 }
