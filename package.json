@@ -1,6 +1,7 @@
 {
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
+		"sass-embedded": "^1.89.2",
 		"vite": "^7.0.0"
 	},
 	"scripts": {
@@ -11,6 +12,7 @@
 	"dependencies": {
 		"@vitejs/plugin-react": "^4.6.0",
 		"loader-utils": "3.2",
+		"node-sass": "^9.0.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2"
 	}
