@@ -10,6 +10,8 @@
 		"dev": "vite"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.1",
 		"@vitejs/plugin-react": "^4.6.0",
 		"loader-utils": "3.2",
 		"node-sass": "^9.0.0",
