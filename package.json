@@ -1,7 +1,6 @@
 {
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"sass-embedded": "^1.89.2",
 		"vite": "^7.0.0"
 	},
 	"scripts": {
@@ -10,14 +9,10 @@
 		"dev": "vite"
 	},
 	"dependencies": {
-		"@emotion/react": "^11.14.0",
-		"@emotion/styled": "^11.14.1",
 		"@vitejs/plugin-react": "^4.6.0",
 		"loader-utils": "3.2",
-		"node-sass": "^9.0.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"styled-components": "^6.1.19",
-		"styled-jsx": "^5.1.7"
+		"react-router-dom": "^5.3.4"
 	}
 }
