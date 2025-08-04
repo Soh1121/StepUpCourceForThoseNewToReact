@@ -1,11 +1,12 @@
 import React from 'react';
-import "./styles.css";
+import { PrimaryButton } from './components/atom/button/PrimaryButton';
+import { SecondaryButton } from './components/atom/button/SecondaryButton';
 
 export default function App() {
     return (
         <div className="App">
-            <h1>Hello, React!</h1>
-            <p>Welcome to your React application.</p>
+            <PrimaryButton>テスト</PrimaryButton>
+            <SecondaryButton>検索</SecondaryButton>
         </div>
     );
 }
