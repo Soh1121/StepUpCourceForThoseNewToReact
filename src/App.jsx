@@ -2,6 +2,7 @@ import React from 'react';
 import { PrimaryButton } from './components/atoms/button/PrimaryButton';
 import { SecondaryButton } from './components/atoms/button/SecondaryButton';
 import { SearchInput } from './components/molecules/SearchInput';
+import { UserCard } from './components/organisms/user/UserCard';
 
 export default function App() {
     return (
@@ -10,6 +11,7 @@ export default function App() {
             <SecondaryButton>検索</SecondaryButton>
             <br />
             <SearchInput />
+            <UserCard />
         </div>
     );
 }
