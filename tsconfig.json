@@ -3,8 +3,7 @@
         "./src/**/*"
     ],
     "compilerOptions": {
-        // "strict": true,
-        "esModuleInterop": true,
+        "strict": true,
         "lib": [
             "dom",
             "es2015"
