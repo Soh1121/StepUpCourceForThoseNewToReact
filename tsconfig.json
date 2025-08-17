@@ -3,11 +3,10 @@
         "./src/**/*"
     ],
     "compilerOptions": {
-        // "strict": true,
-        "esModuleInterop": true,
+        "strict": true,
         "lib": [
             "dom",
-            "es2015"
+            "es2018"
         ],
         "jsx": "react-jsx"
     }
